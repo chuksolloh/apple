@@ -1,0 +1,36 @@
+git add '*.txt'
+
+git remote add origin https://github.com/try_git/try_git.git
+
+git push -u origin master
+
+git diff HEAD
+
+git add octofamily/octodog.txt
+
+git diff --staged
+
+    Close
+    Minimize
+    Maximize
+
+TryGit—1229x310
+
+
+git reset octofamily/octodog.txt
+
+    Close
+    Minimize
+    Maximize
+
+TryGit—1229x310
+
+git branch clean_up
+
+git rm '*.txt'
+git checkout master
+git merge clean_up
+git branch -d clean_up
+git branch -d clean_up
+git push
+git --all
